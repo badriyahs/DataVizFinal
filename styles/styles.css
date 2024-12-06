@@ -72,3 +72,12 @@ h1 {
     font-weight: 300;
     /* Thin line weight */
 }
+html {
+    cursor: url('../assets/cursors/cursor.png'), auto;
+}
+
+/* Change cursor for clickable elements (links and buttons) */
+a:hover,
+button:hover {
+    cursor: url('../assets/cursors/redcursor.png'), pointer;
+}
